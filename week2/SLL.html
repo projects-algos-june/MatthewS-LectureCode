@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Singly Linked List</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <style>
+    li {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Single Linked Lists</h1>
+    <hr>
+    <div>
+      <p>Understanding common data structures is essential for any programmer. Not only are they commonly used to test a
+        programmer's knowledge during interviews or coding challenges, but having these tools in your "developer's
+        toolkit" will prove useful in your own personal development. Let's begin by taking a look at one of the most
+        common data structures, Singly Linked Lists.</p>
+
+      <h2>Overview</h2>
+
+      <p>Singly Linked Lists are a fantastic starting point as they share fundamental concepts with <a
+          href="https://www.geeksforgeeks.org/binary-search-tree-data-structure/">other structures</a>. The structure is
+        comprised of nodes. A node is simply an object that we will construct. In this example, we will be using
+        JavaScript.</p>
+      <ul>
+        <li>Linked lists are common and appear early on in undergraduate Computer Science works.</li>
+
+        <li>Not very practical in real world applications, Linked Lists make for a good foundation to base data
+          structures
+          off</li>
+
+        <li>They're simple, but they can get complex and finnicky, so it's important to master them.</li>
+
+        <li>Lists, Stacks and Queues can all be applied as a Singly Linked List.</li>
+
+        <li>Very, very common in software engineering interviews.</li>
+
+        <li>Linked List data structure represents a linear sequence of vertices. We're going to call them nodes.
+        </li>
+
+        <li>The list itself has two properties: head - First Node on the list. Length - how many elements exist
+        </li>
+
+        <li>Linked Lists do not need to live in the SLL instance. Each vertex is an instance of a Node</li>
+
+        <li>Nodes themselves track the value they contain, and the location in memory the next node that they are
+          'linked'
+          with live.<p><img src="./images/node.jpg"></p>
+        </li>
+
+        <li>The first node on the list is called the head. Each list has to start with a head. </li>
+        <img src="./images/sll.png">
+
+        <li>Arrays and Singly Linked Lists are both implementation of the same abstract data type. The important
+          difference is how
+          the data is stored.<br></li>
+
+        <li>Unlike Arrays, Linked Lists have no indices, and no random access. Since we don't have Random Access, we do
+          not have the ability
+          to look up an individual Node. Instead to find one, we have to traverse through the list one node at a time,
+          checking each .next
+          to see if it's the one we want. </li>
+
+        <li>Arrays contain contiguous data <p><img src="images/array.jpg"></p>
+        </li>
+
+        <li>In the memory of the computer, the array has to be stored as a whole, and when you get into thousands or
+          millions of records,
+          that can tie up machine resources.</li>
+
+        <li>Linked Lists are non contiguous. They REPRESENT data that is linear, but when it comes to computer memory,
+          each node is can be anywhere.
+          It's a representation of what an array portrays, without resources. </li>
+
+        <li>The only reason we know what the next element is, is because of our next property on that specific Node<p>
+            <img src="./images/insert.jpg"></p>
+        </li>
+
+        <li>Because Linked Lists are not contiguous, that gives us an advantage over arrays. In an array, we need to
+          shift every element if we want to insert of delete an index. With linked lists, all you do is move the
+          pointers.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
